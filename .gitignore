@@ -1,0 +1,44 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Environment variables — NEVER commit these
+# These files contain your passwords, API keys, and secrets
+.env
+.env.local
+.env.production
+
+# AWS credentials — NEVER commit these
+# If these get pushed to GitHub, attackers can steal your AWS account
+*.pem
+*.key
+.aws/
+
+# Node.js
+# These are auto-generated dependencies, not your code
+node_modules/
+frontend/build/
+
+# Terraform
+# State files contain sensitive infrastructure details
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# IDE files
+# These are personal editor settings, not project code
+.vscode/
+.idea/
+*.swp
+
+# OS files
+# Mac and Windows create these automatically, they have no place in your repo
+.DS_Store
+Thumbs.db
