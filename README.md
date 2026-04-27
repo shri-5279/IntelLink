@@ -1,7 +1,7 @@
 # IntelLink — AI-Powered URL Intelligence Platform
 
 > AI-powered URL shortener with malicious link detection, real-time 
-> click analytics, and intelligent performance insights — built on AWS
+> click analytics, and intelligent performance insights - built on AWS
 
 ## Why IntelLink Exists
 
